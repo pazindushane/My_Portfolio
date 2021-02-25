@@ -84,6 +84,18 @@ section.first>div.banner2>h3>span{
     color: #313131;
 }
 
+section.first>div.banner2>h3.buffel{
+    font-family: Quicksand ;
+    font-weight: bold;
+    font-size: 45px;
+    color: #313131;
+
+}
+
+section.first>div.banner2>h3.buffel>span{
+    color: #313131;
+}
+
 section.first>div.banner2>h1{
     font-family: ColorTube;
     font-size: 55px;
@@ -414,7 +426,7 @@ section.third>div.aboutme2>h2{
     font-size: 50px;
     color: #02B1DB;
     top: -34px;
-    left: 487px;
+    left: 532px;
     position: absolute;
 }
 
@@ -443,6 +455,19 @@ section.third>div.simages>div.simages-sec>div.tint1{
     opacity: 20%;
 }
 
+section.third>div.simages>div.simages-sec>div.tint1{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages>div.simages-sec:hover>div.tint1{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
+}
+
 section.third>div.simages2>img.fst2{
     width: 257px;
     height: 178px;
@@ -464,6 +489,19 @@ section.third>div.simages2>div.tint2{
     opacity: 20%;
 }
 
+section.third>div.simages2>div.tint2{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages2:hover>div.tint2{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
+}
+
 section.third>div.simages3>img.fst3{
     width: 257px;
     height: 178px;
@@ -483,6 +521,19 @@ section.third>div.simages3>div.tint3{
     left: 1011px;
     background-color: green;
     opacity: 20%;
+}
+
+section.third>div.simages3>div.tint3{
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages3:hover>div.tint3{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
 }
 
 section.third>div.simages>div.simages-sec>div.detail1>div{
@@ -508,8 +559,23 @@ section.third>div.simages>div.simages-sec>div.detail1>p{
 section.third>div.simages>div.simages-sec>div.detail1>img{
     position: absolute;
     top: 253px;
-    left: 147px;
+    left: 142px;
+    width: 61px;
 }
+
+section.third>div.simages>div.simages-sec>div.detail1{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+section.third>div.simages>div.simages-sec:hover>div.detail1{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
 
 section.third>div.simages2>div.detail2>div{
     width: 150px;
@@ -533,8 +599,22 @@ section.third>div.simages2>div.detail2>p{
 
 section.third>div.simages2>div.detail2>img{
     position: absolute;
-    top: 252px;
+    top: 255px;
     left: 625px;
+    width: 52px;
+}
+
+section.third>div.simages2>div.detail2{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages2:hover>div.detail2{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
 }
 
 section.third>div.simages3>div.detail3>div{
@@ -561,6 +641,19 @@ section.third>div.simages3>div.detail3>img{
     position: absolute;
     top: 252px;
     left: 1111px;
+}
+
+section.third>div.simages3>div.detail3{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages3:hover>div.detail3{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
 }
 
 /*section.third>div.simages>div.simages-sec{*/
@@ -697,7 +790,7 @@ section.fourth>div.pbar4{
 /*============================================ Projects ===========================================*/
 
 section.fifth{
-    height: 630px;
+    height: 563px;
     border: 1px solid #02B1DB;
     position: relative;
 }
@@ -748,7 +841,7 @@ section.fifth>div.pro2{
     transform: rotate(-46deg);
     position: absolute;
     top: 150px;
-    left: 474px;
+    left: 522px;
 }
 
 section.fifth>div.pro3{
@@ -760,7 +853,7 @@ section.fifth>div.pro3{
     transform: rotate(-46deg);
     position: absolute;
     top: 150px;
-    left: 840px;
+    left: 931px;
 }
 
 section.fifth>div.pro1-1{
@@ -782,7 +875,7 @@ section.fifth>div.pro2-1{
     transform: rotate(-46deg);
     position: absolute;
     top: 139px;
-    left: 514px
+    left: 562px;
 }
 
 section.fifth>div.pro3-1{
@@ -793,7 +886,7 @@ section.fifth>div.pro3-1{
     transform: rotate(-46deg);
     position: absolute;
     top: 139px;
-    left: 884px;
+    left: 975px;
 }
 
 section.fifth>div.pro1-1>img{
@@ -871,7 +964,7 @@ section.sixth>div.aboutme5>h2>span{
     color: #313131;
 }
 
-section.sixth>div.ass1>img{
+section.sixth>div.ass1>a>img{
     width: 342px;
     height: 160px;
     position: absolute;
@@ -884,12 +977,12 @@ section.sixth>div.ass1>img{
     cursor: pointer;
 }
 
-section.sixth>div.ass1>img:hover{
+section.sixth>div.ass1>a>img:hover{
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
 
-section.sixth>div.ass2>img{
+section.sixth>div.ass2>a>img{
     width: 342px;
     height: 160px;
     position: absolute;
@@ -902,12 +995,12 @@ section.sixth>div.ass2>img{
     cursor: pointer;
 }
 
-section.sixth>div.ass2>img:hover{
+section.sixth>div.ass2>a>img:hover{
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
 
-section.sixth>div.ass3>img{
+section.sixth>div.ass3>a>img{
     width: 342px;
     height: 160px;
     position: absolute;
@@ -920,7 +1013,7 @@ section.sixth>div.ass3>img{
     cursor: pointer;
 }
 
-section.sixth>div.ass3>img:hover{
+section.sixth>div.ass3>a>img:hover{
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
@@ -1174,44 +1267,44 @@ section.seventh>div.sec3>div.prime3>img{
     left: 77px;
 }
 
-/*section.seventh>div.sec1{*/
-/*    transform: translateY(100px);*/
-/*    opacity: 0;*/
-/*    transition: 0.5s;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh>div.sec1{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-/*section.seventh:hover>div.sec1{*/
-/*    transform: translateY(0px);*/
-/*    opacity: 1;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh:hover>div.sec1{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
 
-/*section.seventh>div.sec2{*/
-/*    transform: translateY(100px);*/
-/*    opacity: 0;*/
-/*    transition: 0.5s;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh>div.sec2{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-/*section.seventh:hover>div.sec2{*/
-/*    transform: translateY(0px);*/
-/*    opacity: 1;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh:hover>div.sec2{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
 
-/*section.seventh>div.sec3{*/
-/*    transform: translateY(100px);*/
-/*    opacity: 0;*/
-/*    transition: 0.5s;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh>div.sec3{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-/*section.seventh:hover>div.sec3{*/
-/*    transform: translateY(0px);*/
-/*    opacity: 1;*/
-/*    cursor: pointer;*/
-/*}*/
+section.seventh:hover>div.sec3{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
 
 /*============================================ Interests ===========================================*/
 
@@ -1777,10 +1870,694 @@ section.ten>div.column1>div.newsteller:hover{
 
 /*========================================== Responsive ============================================*/
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     header {
-        height: 159px;
-        width: 370px;
+        height: 195px;
+        width: 318px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 95px;
+        margin: 67px;
+        margin-left: -2px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first{
+        width: 318px;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: -28px;
+        left: 10px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+        margin-left: -17px;
+        font-size: 40px;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+        margin-left: -14px;
+        font-size: 48px;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 18px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 18px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 80px;
+        top: -118px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 41px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 85px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 434px;
+        left: 1px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 668px;
+        right: 156px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 689px;
+        right: 85px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 769px;
+        left: 75px;
+        width: 165px;;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -22px;
+        left: 78px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        display: none;
+    }
+
+    section.second>div.icona>img.loc2 {
+        display: none;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        display: none;
+    }
+
+    section.second>div.icona>p.myold{
+        display: none;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.second{
+        width: 318px;
+        height: 853px;
+    }
+
+    section.third{
+        width: 318px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 62px;
+        position: absolute;
+    }
+
+    section.third>div.simages>img.fst{
+        position: absolute;
+        left: 33px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.tint1{
+        position: absolute;
+        left: 33px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>div{
+        position: absolute;
+        left: 81px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>p{
+        position: absolute;
+        left: 112px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>img{
+        position: absolute;
+        left: 138px;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2{
+        display: none;
+    }
+
+    section.fourth{
+        width: 318px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 88px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 318px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 89px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 318px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 58px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 269px;
+        height: 127px;
+        position: absolute;
+        top: 137px;
+        left: 26px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 318px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 11px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 318px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 120px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 51px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 118px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 54px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 147px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 152px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 318px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: -9px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 281px;
+        position: absolute;
+        left: 17px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 278px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 17px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 164px;
+    }
+
+    section.ten{
+        width: 318px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 79px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 118px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -240px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+        }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 322px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 404px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 471px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 7px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+    header {
+        height: 195px;
+        width: 373px;
     }
 
     header > img {
@@ -1841,7 +2618,7 @@ section.ten>div.column1>div.newsteller:hover{
         width: 246px;
         height: 269px;
         top: 102px;
-        left: 50px;
+        left: 62px;
         position: absolute;
     }
 
@@ -1863,7 +2640,7 @@ section.ten>div.column1>div.newsteller:hover{
 
     section.second>div.desc>p:nth-child(2) {
         top: 434px;
-        left: -16px;
+        left: 1px;
         position: absolute;
     }
 
@@ -1872,32 +2649,37 @@ section.ten>div.column1>div.newsteller:hover{
         height: 90px;
         position: absolute;
         top: 642px;
-        right: 187px;
+        right: 184px;
     }
 
     section.second>div.icona>a.location>img.loc {
         width: 50px;
         height: 47px;
         position: absolute;
-        top: 661px;
-        right: 124px;
+        top: 664px;
+        right: 109px;
     }
 
     section.second>div.btn1>button.btn-1 {
         position: absolute;
         top: 753px;
-        left: 108px;
+        left: 105px;
+        width: 165px;;
     }
 
     section.second>div.aboutme>h2 {
         top: -22px;
-        left: 96px;
+        left: 108px;
         position: absolute;
         font-size: 35px;
     }
 
     section.second>div.desc>p {
-
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
     }
 
     section.second>div.icona>img.loc1 {
@@ -2070,11 +2852,11 @@ section.ten>div.column1>div.newsteller:hover{
     section.sixth>div.aboutme5>h2{
         font-size: 35px;
         top: -15px;
-        left: 80px;
+        left: 83px;
         position: absolute;
     }
 
-    section.sixth>div.ass1>img{
+    section.sixth>div.ass1>a>img{
         width: 312px;
         height: 140px;
         position: absolute;
@@ -2082,11 +2864,11 @@ section.ten>div.column1>div.newsteller:hover{
         left: 36px;
     }
 
-    section.sixth>div.ass3>img{
+    section.sixth>div.ass3>a>img{
         display: none;
     }
 
-    section.sixth>div.ass2>img{
+    section.sixth>div.ass2>a>img{
         display: none;
     }
 
@@ -2235,7 +3017,7 @@ section.ten>div.column1>div.newsteller:hover{
     section.eighth>div.aboutme7>h2{
         font-size: 35px;
         top: -13px;
-        left: 110px;
+        left: 120px;
         position: absolute;
     }
 
@@ -2296,14 +3078,14 @@ section.ten>div.column1>div.newsteller:hover{
         text-align: center;
         font-size: 35px;
         top: -4px;
-        left: 37px;
+        left: 22px;
         position: absolute;
     }
 
     section.ninth>div.tbox>p>input[type="text"]{
         width: 313px;
         position: absolute;
-        left: 31px;
+        left: 28px;
     }
 
     section.ninth>div.tarea>p>textarea{
@@ -2311,7 +3093,7 @@ section.ten>div.column1>div.newsteller:hover{
         height: 209px;
         position: absolute;
         top: 258px;
-        left: 32px;
+        left: 27px;
     }
 
     section.ninth>div.btn2>button{
@@ -2319,7 +3101,7 @@ section.ten>div.column1>div.newsteller:hover{
         height: 40px;
         position: absolute;
         top: 497px;
-        left: 203px;
+        left: 207px;
     }
 
     section.ten{
@@ -2331,9 +3113,9 @@ section.ten>div.column1>div.newsteller:hover{
     }
 
     section.ten>div.column1>h2{
-        font-size: 35px;
+        font-size: 30px;
         top: 35px;
-        left: 85px;
+        left: 108px;
         position: absolute;
     }
 
@@ -2355,7 +3137,7 @@ section.ten>div.column1>div.newsteller:hover{
         position: absolute;
         top: 280px;
         left: 256px;
-        }
+    }
 
     section.ten>div.column1>div.column3>img.social2{
         width: 55px;
@@ -2382,10 +3164,10 @@ section.ten>div.column1>div.newsteller:hover{
     }
 
     section.ten>div.column1>div.column4{
-        font-size: 14px;
+        font-size: 12px;
         position: absolute;
-        top: 325px;
-        left: 12px;
+        top: 334px;
+        left: 37px;
     }
 
     section.ten>div.column1>div.newsteller>p>input{
@@ -2415,6 +3197,1387 @@ section.ten>div.column1>div.newsteller:hover{
 
     section.ten>div.column1>div.column3>img.social5{
         display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px) {
+
+    header {
+        height: 195px;
+        width: 423px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 105px;
+        margin: 57px;
+        margin-left: -1px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: -28px;
+        left: 10px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 12px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 15px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 88px;
+        top: -121px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 82px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 434px;
+        left: 1px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 642px;
+        right: 212px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 664px;
+        right: 133px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 753px;
+        left: 105px;
+        width: 165px;;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -22px;
+        left: 127px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        display: none;
+    }
+
+    section.second>div.icona>img.loc2 {
+        display: none;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        display: none;
+    }
+
+    section.second>div.icona>p.myold{
+        display: none;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.first{
+        width: 423px;
+    }
+
+    section.second{
+        width: 423px;
+        height: 853px;
+    }
+
+    section.third{
+        width: 423px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 115px;
+        position: absolute;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2{
+        display: none;
+    }
+
+    section.fourth{
+        width: 423px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 132px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 423px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 149px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 423px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 105px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 312px;
+        height: 140px;
+        position: absolute;
+        top: 137px;
+        left: 57px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 423px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 23px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 423px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 138px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 171px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 166px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 167px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 423px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: 44px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 313px;
+        position: absolute;
+        left: 51px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 315px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 52px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 228px;
+    }
+
+    section.ten{
+        width: 423px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 163px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -225px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 335px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 421px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 482px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 62px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        width: 96px;
+        height: 58px;
+        position: absolute;
+        top: 267px;
+        left: 561px;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+
+    header {
+        height: 195px;
+        width: 766px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 105px;
+        margin: 57px;
+        margin-left: -1px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: 42px;
+        left: 60px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 12px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 15px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 88px;
+        top: -121px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 82px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 177px;
+        left: 291px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 420px;
+        right: 129px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 445px;
+        right: 58px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 514px;
+        left: 548px;
+        width: 165px;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -13px;
+        left: 134px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 67px;
+        left: 308px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        width: 65px;
+        height: 70px;
+        position: absolute;
+        top: 366px;
+        right: 178px;
+    }
+
+    section.second>div.icona>img.loc2 {
+        width: 71px;
+        height: 40px;
+        position: absolute;
+        top: 380px;
+        right: 410px;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 18px;
+        color: #313131;
+        top: 375px;
+        left: 356px;
+        position: absolute;
+    }
+
+    section.second>div.icona>p.myold{
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 18px;
+        color: #313131;
+        top: 374px;
+        left: 597px;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.first{
+        width: 766px;
+    }
+
+    section.second {
+        width: 766px;
+        height: 627px;
+    }
+
+    section.third{
+        width: 766px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 298px;
+        position: absolute;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2>img.fst2{
+        width: 257px;
+        height: 178px;
+        border-radius: 20px;
+        position: absolute;
+        top: 157px;
+        left: 464px;
+    }
+
+    section.third>div.simages2>div.tint2{
+        width: 257px;
+        height: 178px;
+        border-radius: 20px;
+        position: absolute;
+        top: 157px;
+        left: 464px;
+        background-color: blue;
+        opacity: 20%;
+    }
+
+    section.third>div.simages2>div.detail2>div{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 5px solid white;
+        position: absolute;
+        top: 167px;
+        left: 514px;
+    }
+
+    section.third>div.simages2>div.detail2>p{
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        left: 547px;
+        color: white;
+        font-family: Quicksand;
+        font-size: 20px;
+    }
+
+    section.third>div.simages2>div.detail2>img{
+        position: absolute;
+        top: 252px;
+        left: 573px;
+    }
+
+    section.fourth{
+        width: 766px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 132px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 766px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 149px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 766px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 105px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 312px;
+        height: 140px;
+        position: absolute;
+        top: 137px;
+        left: 57px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 766px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 23px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 766px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 138px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 171px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 166px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 167px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 766px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: 44px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 313px;
+        position: absolute;
+        left: 51px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 315px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 52px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 228px;
+    }
+
+    section.ten{
+        width: 766px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 163px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -225px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 335px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 421px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 482px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 62px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        width: 96px;
+        height: 58px;
+        position: absolute;
+        top: 267px;
+        left: 561px;
     }
 
     section.ten>div.column1>div.column3>img.social6{

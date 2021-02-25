@@ -5,6 +5,7 @@
     <title>Pasindu Dilmin's Website</title>
     <link href="assests/css/normalize.css" rel="stylesheet">
     <link href="assests/css/Style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -46,7 +47,19 @@
 
             <h3><span>H</span>ello <span>t</span>here , <span>I</span> am</h3>
             <h1><span>P</span>asindu <span>D</span>ilmin</h1>
-            <h3><span>D</span>eveloper <span>&</span> D<span>esigner</span></h3>
+            <h3 class="buffel"><span>D</span>eveloper <span>&</span> D<span>esigner</span></h3>
+
+            <script type="text/javascript">
+
+                const text = baffle(".buffel");
+                text.set({
+                    characters : '█▓█ ▒░/▒░ █░▒▓/ █▒▒ ▓▒▓/█ ░█▒/ ▒▓░ █<░▒ ▓/░>',
+                    speed: 120,
+                });
+                text.start();
+                text.reveal(4000);
+
+            </script>
 
 
         </div>
@@ -193,12 +206,12 @@
                     <div></div>
 
                     <p>
-                        App
+                        Full Stack
                         <br>
                         Developing
                     </p>
 
-                    <img src="assests/img/icons8-ios-development-50.png">
+                    <img src="assests/img/api.png">
 
                 </div>
             </div>
@@ -223,7 +236,7 @@
                     Developing
                 </p>
 
-                <img src="assests/img/icons8-ios-development-50.png">
+                <img src="assests/img/webd.png">
 
             </div>
 
@@ -240,7 +253,7 @@
                 <div></div>
 
                 <p>
-                    Backend
+                    App
                     <br>
                     Developing
                 </p>
@@ -427,19 +440,31 @@
 
         <div class="ass1">
 
-            <img alt="fst" src="assests/img/ass2%20(3).jpg">
+            <a href="assests/assignments/car_animation/indexs.html" target="_blank">
+
+                <img alt="fst" src="assests/img/ass2%20(3).jpg">
+
+            </a>
 
         </div>
 
         <div class="ass2">
 
-            <img src="assests/img/ass2.jpg">
+            <a href="assests/assignments/Transition/indexz.html" target="_blank">
+
+                <img src="assests/img/ass2.jpg">
+
+            </a>
 
         </div>
 
         <div class="ass3">
 
-            <img src="assests/img/ass34.jpg">
+            <a href="assests/assignments/position/indexy.html" target="_blank">
+
+                <img src="assests/img/ass34.jpg">
+
+            </a>
 
         </div>
 
