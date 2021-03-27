@@ -152,13 +152,13 @@ section.first>div.circle1A>img{
 }
 
 @keyframes wheel1 {
-        0%{
-            transform: rotate(0deg);
-        }
+    0%{
+        transform: rotate(0deg);
+    }
 
-        100%{
-            transform: rotate(360deg);
-        }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 section.first>div.Circle2A{
@@ -417,7 +417,7 @@ section.third>div.frame2>img{
     right: 455px;
     top: 298px;
     opacity: 78%;
-
+    z-index: -1;
 }
 
 section.third>div.aboutme2>h2{
@@ -685,9 +685,10 @@ section.third>div.simages3:hover>div.detail3{
 /*============================================ My Skills ===========================================*/
 
 section.fourth{
-    height: 466px;
+    height: 905px;
     border: 1px solid #02B1DB;
     position: relative;
+    cursor: pointer;
 }
 
 section.fourth>div.frame3>img{
@@ -698,6 +699,7 @@ section.fourth>div.frame3>img{
     right: -298px;
     top: 320px;
     opacity: 78%;
+    z-index: -2;
 }
 
 section.fourth>div.aboutme3>h2{
@@ -714,78 +716,357 @@ section.fourth>div.aboutme3>h2>span{
     color: #313131;
 }
 
-section.fourth>div.pbar1{
-    width: 150px;
-    height: 75px;
-    background-color: transparent;
-    border-top-left-radius: 110px;
-    border-top-right-radius: 110px;
-    border: 10px solid #F39E2E;
-    border-bottom: 0;
-    transform: rotate(90deg);
+section.fourth>div.tab1{
+    width: 569px;
+    height: 334px;
     position: absolute;
-    top: 193px;
-    left: 766px;
+    top: 91px;
+    left: 58px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
 }
 
-section.fourth>div.pbar1>img{
-    width: 100px;
-    height: 74px;
-    transform: rotate(-90deg);
-    margin-left: 18px;
-    margin-top: 25px;
-}
-
-section.fourth>div.pbar2{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    background-color: transparent;
-    border-top: 10px solid transparent;
-    border-left: 10px solid #E53E40;
-    border-right: 10px solid #E53E40;
-    border-bottom: 10px solid #E53E40;
-    transform: rotate(-45deg);
-    position: absolute;
-    top: 150px;
-    left: 85px;
-}
-
-section.fourth>div.pbar2>img{
-    width: 89px;
-    height: 92px;
-    transform: rotate(45deg);
-    margin-left: 35px;
-    margin-top: 24px;
-}
-
-section.fourth>div.progress-des1>h3{
-    color: #E11F22;
-    font-family: Quattrocento Sans;
-    font-size: 33px;
-    position: absolute;
-    top: 67px;
-    left: 214px;
-}
-
-section.fourth>div.progress-des1>p{
-    color: black;
+section.fourth>div.tab1>h3{
     font-family: Quicksand;
-    font-size: 21px;
-    font-weight: bold;
+    font-size: 30px;
+    color: #E51F24;
     position: absolute;
-    top: 181px;
-    left: 285px;
+    top: -4px;
+    left: 153px;
+    /*display: none;*/
 }
 
-section.fourth>div.pbar3{
+section.fourth>div.tab1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 259px;
+    width: 283px;
+    /*display: none;*/
+}
+section.fourth:hover>div.tab1{
+    display: block;
+}
+
+section.fourth>div.tab2{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 91px;
+    left: 721px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab2>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #00718B;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+section.fourth>div.tab2>h3>span{
+
+    color: #EA8900;
 
 }
 
-section.fourth>div.pbar4{
+section.fourth>div.tab2>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 99px;
+    left: 259px;
+    width: 283px;
+}
+section.fourth:hover>div.tab2{
+    display: block;
+}
+
+section.fourth>div.tab3{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 494px;
+    left: 58px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab3>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #E96228;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+section.fourth>div.tab3>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 283px;
+}
+section.fourth:hover>div.tab3{
+    display: block;
+}
+
+section.fourth>div.tab4{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 494px;
+    left: 721px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab4>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #D8B225;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+
+section.fourth>div.tab4>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 283px;
+}
+
+section.fourth:hover>div.tab4{
+    display: block;
+}
+
+
+section.fourth>div.pbars{
+    width: 1347px;
+    height: 901px;
+    z-index: 10;
+    animation: 0.1ms fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    /*display: none;*/
+}
+
+/*section.fourth:hover>div.pbars{*/
+/*    display: block;*/
+/*}*/
+section.fourth>div.pbars>div.pbar1{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar2{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar3{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar4{
+    display: none;
+}
+
+
+section.fourth>div.pbars:hover>div.pbar1>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 74px;
+    top: 153px;
+}
+section.fourth>div.pbars:hover>div.pbar1>svg>circle{
+    fill: transparent;
+    stroke: #0D86C1;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate1 1s forwards ;
+}
+
+@keyframes animate1 {
+    to{
+        stroke-dashoffset: 400;
+
+    }
 
 }
+
+section.fourth>div.pbars:hover>div.pbar1>div.counter1{
+    position: absolute;
+    left: 131px;
+    top: 215px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: #E51F24;
+}
+
+
+section.fourth>div.pbars:hover>div.pbar2>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 738px;
+    top: 153px;
+}
+section.fourth>div.pbars:hover>div.pbar2>svg>circle{
+    fill: transparent;
+    stroke: #00718B;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate2 1s forwards ;
+}
+
+@keyframes animate2 {
+    to{
+        stroke-dashoffset: 320;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar2>div.counter2{
+    position: absolute;
+    left: 785px;
+    top: 209px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: #EA8900;
+}
+
+section.fourth>div.pbars:hover>div.pbar3>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 74px;
+    top: 553px;
+}
+section.fourth>div.pbars:hover>div.pbar3>svg>circle{
+    fill: transparent;
+    stroke: #E96228;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate3 1s forwards ;
+}
+
+@keyframes animate3 {
+    to{
+        stroke-dashoffset: 275;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar3>div.counter3{
+    position: absolute;
+    left: 131px;
+    top: 615px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: black;
+}
+
+section.fourth>div.pbars:hover>div.pbar4>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 738px;
+    top: 553px;
+}
+
+section.fourth>div.pbars:hover>div.pbar4>svg>circle{
+    fill: transparent;
+    stroke: #D8B225;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate4 1s forwards ;
+}
+
+@keyframes animate4 {
+    to{
+        stroke-dashoffset: 200;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar4>div.counter4{
+    position: absolute;
+    left: 793px;
+    top: 615px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: black;
+}
+
+
+
+@keyframes fadeIn {
+    99% {
+        visibility: hidden;
+        /*display: none;*/
+    }
+    100% {
+        visibility: visible;
+        /*display: block;*/
+    }
+}
+
+section.fourth>div.pbars:hover>div.pbar1{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar2{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar3{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar4{
+    display: block;
+}
+
 
 /*============================================ Projects ===========================================*/
 
@@ -2482,7 +2763,7 @@ section.ten>div.column1>div.newsteller:hover{
         position: absolute;
         top: 280px;
         left: 256px;
-        }
+    }
 
     section.ten>div.column1>div.column3>img.social2{
         width: 55px;
